@@ -1,3 +1,5 @@
+base_path: /project
+
 files:
   - source: /**/*.lang
     translation: /**/lang/%file_name%.%locale%.%file_extension%
