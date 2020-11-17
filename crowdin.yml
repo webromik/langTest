@@ -1,6 +1,6 @@
 files:
-  - source: /*.lang
-    translation: /**/lang/%file_name%.%locale%.%file_extension%
+  - source: /**/*.lang
     ignore:
-      - "/**/lang/%file_name%.%locale%.%file_extension%"
+      - /**/lang/%file_name%.%locale%.%file_extension%
+    translation: /**/lang/%file_name%.%locale%.%file_extension%
     type: json
