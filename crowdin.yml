@@ -3,4 +3,4 @@ files:
     ignore:
       - /**/lang/%file_name%.%locale%.%file_extension%
     translation: /**/lang/%file_name%.%locale%.%file_extension%
-    type: JSON
+    type: json
