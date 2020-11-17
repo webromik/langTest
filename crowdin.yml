@@ -1,6 +1,5 @@
 files:
-  - source: /**/*.lang
-    ignore:
-      - /**/lang/%file_name%.%locale%.%file_extension%
-    translation: /**/lang/%file_name%.%locale%.%file_extension%
-    type: json
+  - source: /ja.lproj/InfoPlist.strings
+    dest: Localizable.strings
+    translation: /%osx_code%/InfoPlist.strings
+    update_option: update_without_changes
