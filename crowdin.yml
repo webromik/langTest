@@ -1,4 +1,4 @@
 files:
   - source: /lang/**/*.lang
-    translation: /translations/**/%file_name%.%locale%.lang
+    translation: /translations/lang/**/%file_name%.%locale%.lang
     type: json
