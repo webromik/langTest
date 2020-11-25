@@ -1,6 +1,5 @@
 files:
-  - source: /**/*.lang
-    ignore:
-      - /**/lang/%file_name%.%locale%.%file_extension%
-    translation: /**/lang/%file_name%.%locale%.lang
+  - source: /lang/realJukwaaPage.lang
+    translation: /translations/lang/%file_name%.%locale%.lang
+    dest: /lang/realJukwaaPage.lang
     type: json
