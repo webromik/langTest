@@ -1,4 +1,4 @@
 files:
-  - source: /**/realJukwaaPage.lang
+  - source: /**/*.lang
     translation: /translations/**/%file_name%.%locale%.lang
     type: json
