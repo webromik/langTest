@@ -1,5 +1,4 @@
 files:
-  - source: /lang/realJukwaaPage.lang
-    translation: /translations/lang/%file_name%.%locale%.lang
-    dest: /lang/realJukwaaPage.json
+  - source: /**/realJukwaaPage.lang
+    translation: /translations/**/%file_name%.%locale%.lang
     type: json
